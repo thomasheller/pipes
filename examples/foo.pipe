@@ -1,0 +1,19 @@
+# This is another example.
+
+# Replace all semicolons with commas.
+tr \; ,
+
+# Sort numerically and revere.
+sort -rn
+
+# Get the third and fourth columns.
+cut -d, -f3-4
+
+# Get all rows containing 'a'.
+grep a
+
+# Get the first columns.
+cut -d, -f1
+
+# Join the rows with ','.
+paste -s -d,

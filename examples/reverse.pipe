@@ -1,0 +1,5 @@
+# This pipe simply calls 'rev' to reverse its input.
+# Lines staring with '#' denote a comment.
+# Blank lines are ignored.
+
+rev

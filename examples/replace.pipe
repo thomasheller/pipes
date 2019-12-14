@@ -1,0 +1,6 @@
+# This pipe calls sed to do two string replacements
+# and restricts output to the first two lines.
+
+sed -e s/Hello/Greetings/
+sed -e 's/Welcome to/Enjoy/'
+head -2
